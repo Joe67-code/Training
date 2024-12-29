@@ -52,8 +52,8 @@ def main():
             start_time_ms = int(time.time() * 1000) 
             # check if all hazard states have been sent
             if( next_hazard_light_state() == False ):
-                print("All hazard states have been sent")
-                time.sleep(0.5)  # wait 0.5 seconds before sending the next message package
+                print("All Hazard states have been sent - let's send the next message package")
+                time.sleep(2)  # wait 0.5 seconds before sending the next message package
                 message_package_nr += 1
          
 
@@ -69,7 +69,7 @@ def main():
             start_time_ms = int(time.time() * 1000) 
             # check if all seat states have been sent
             if( next_pseat_postion_state() == False ):
-                print("All seat states have been sent")
+                print("All Seat states have been sent - let's send the next message package")
                 time.sleep(2)  # wait 0.5 seconds before sending the next message package
                 message_package_nr = 0
                 break
