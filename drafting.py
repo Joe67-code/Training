@@ -2,7 +2,7 @@ import datetime
 import time
 
 hasard_state_index = 0
-hasard_state = ["OFF", "ON", "Undefined", "ON", "OFF"]
+hasard_state = ["OFF", "ON", "Undefined", "ON", "OFF", "ON"]
 
 pseat_state = ["pos1", "pos2", "pos3", "pos1", "pos4"]
 pseat_state_index = 0
